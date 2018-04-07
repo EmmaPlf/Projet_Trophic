@@ -1,0 +1,28 @@
+12
+0 682 78 90 Gaulois.jpg
+1 554 383 90 Romain.jpg
+2 330 321 90 Sanglier.jpg
+4 72 617 90 Souris.jpg
+5 475 582 90 Gland.jpg
+6 644 579 90 Crocodile.jpg
+7 347 202 90 Chevre.jpg
+8 37 498 90 Plante.jpg
+9 312 533 90 Organique.jpg
+10 73 150 90 Vers.jpg
+11 322 57 90 Potion.jpg
+12 200 100 90 Emeu.jpg
+14
+0 7 10
+1 0 1
+2 0 2
+3 1 6
+4 1 2
+5 2 4
+6 2 5
+8 6 7
+9 6 1
+10 7 8
+11 8 9
+12 10 9
+13 0 11
+14 12 10

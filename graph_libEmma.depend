@@ -1,0 +1,348 @@
+<<<<<<< HEAD
+# depslib dependency file v1.0
+1522844210 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\coords.cpp
+	"coords.h"
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\coords.h
+	<cmath>
+
+1522844210 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman_couleurs.h
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522850322 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\widget.cpp
+	"widget.h"
+
+1522852069 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522850180 c:\users\jeanp\onedrive\documents\github\trophic_networks\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522856395 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"menu.h"
+	"graph.h"
+
+1522856292 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\menu.cpp
+	"menu.h"
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522856302 c:\users\jeanp\onedrive\documents\github\trophic_networks\menu.h
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522939771 source:\\mac\home\trophic_networks\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522929061 \\mac\home\trophic_networks\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522779088 \\mac\home\trophic_networks\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 \\mac\home\trophic_networks\grman\grman_couleurs.h
+
+1522575424 \\mac\home\trophic_networks\grman\coords.h
+	<cmath>
+
+1522848959 \\mac\home\trophic_networks\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:\\mac\home\trophic_networks\grman\coords.cpp
+	"coords.h"
+
+1522777955 source:\\mac\home\trophic_networks\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522873388 source:\\mac\home\trophic_networks\grman\widget.cpp
+	"widget.h"
+
+1522860678 source:\\mac\home\trophic_networks\menu.cpp
+	"menu.h"
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522860678 \\mac\home\trophic_networks\menu.h
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522936301 source:\\mac\home\trophic_networks\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"menu.h"
+	"graph.h"
+
+=======
+<<<<<<< HEAD
+# depslib dependency file v1.0
+1522844210 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\coords.cpp
+	"coords.h"
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\coords.h
+	<cmath>
+
+1522844210 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman_couleurs.h
+
+1522867445 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522860501 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\widget.cpp
+	"widget.h"
+
+1522867722 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522867254 c:\users\jeanp\onedrive\documents\github\trophic_networks\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522865927 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"menu.h"
+	"graph.h"
+
+1522856926 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\menu.cpp
+	"menu.h"
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522856302 c:\users\jeanp\onedrive\documents\github\trophic_networks\menu.h
+	"grman/grman.h"
+	"grman/widget.h"
+
+=======
+# depslib dependency file v1.0
+1522844210 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\coords.cpp
+	"coords.h"
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\coords.h
+	<cmath>
+
+1522844210 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\grman_couleurs.h
+
+1522844210 c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522850322 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\grman\widget.cpp
+	"widget.h"
+
+1522852069 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522850180 c:\users\jeanp\onedrive\documents\github\trophic_networks\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522856395 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"menu.h"
+	"graph.h"
+
+1522856292 source:c:\users\jeanp\onedrive\documents\github\trophic_networks\menu.cpp
+	"menu.h"
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522856302 c:\users\jeanp\onedrive\documents\github\trophic_networks\menu.h
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522860678 source:\\mac\home\trophic_networks\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522861522 \\mac\home\trophic_networks\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522779088 \\mac\home\trophic_networks\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 \\mac\home\trophic_networks\grman\grman_couleurs.h
+
+1522575424 \\mac\home\trophic_networks\grman\coords.h
+	<cmath>
+
+1522848959 \\mac\home\trophic_networks\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:\\mac\home\trophic_networks\grman\coords.cpp
+	"coords.h"
+
+1522777955 source:\\mac\home\trophic_networks\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522860678 source:\\mac\home\trophic_networks\grman\widget.cpp
+	"widget.h"
+
+1522860678 source:\\mac\home\trophic_networks\menu.cpp
+	"menu.h"
+	"grman/grman.h"
+	"grman/widget.h"
+
+1522860678 \\mac\home\trophic_networks\menu.h
+	"grman/grman.h"
+	"grman/widget.h"
+
+>>>>>>> 86e49b1ef2d134debddbcf6a4e386b3252957738
+>>>>>>> 368084a6715d0ad773c7c81ea38fc7319580857a

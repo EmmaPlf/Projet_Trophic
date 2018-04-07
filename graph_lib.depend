@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1522787134 source:c:\users\cpalfi\desktop\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522783466 c:\users\cpalfi\desktop\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522779088 c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522575424 c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522765621 c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522777955 source:c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522787142 source:c:\users\cpalfi\desktop\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522786770 source:c:\users\cpalfi\desktop\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522777588 source:c:\users\cpalfi\desktop\graph_lib_exemple_graph\outil.cpp
+
+1522860175 source:\\mac\home\trophic_networks\graph.cpp
+	"graph.h"
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+
+1522851781 \\mac\home\trophic_networks\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522779088 \\mac\home\trophic_networks\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 \\mac\home\trophic_networks\grman\grman_couleurs.h
+
+1522575424 \\mac\home\trophic_networks\grman\coords.h
+	<cmath>
+
+1522848959 \\mac\home\trophic_networks\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:\\mac\home\trophic_networks\grman\coords.cpp
+	"coords.h"
+
+1522777955 source:\\mac\home\trophic_networks\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522837159 source:\\mac\home\trophic_networks\grman\widget.cpp
+	"widget.h"
+
+1522859070 source:\\mac\home\trophic_networks\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
