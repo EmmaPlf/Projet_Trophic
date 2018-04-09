@@ -1,28 +1,35 @@
-12
-0 682 78 90 Gaulois.jpg
-1 554 383 90 Romain.jpg
-2 330 321 90 Sanglier.jpg
-4 72 617 90 Souris.jpg
-5 475 582 90 Gland.jpg
-6 644 579 90 Crocodile.jpg
-7 347 202 90 Chevre.jpg
-8 37 498 90 Plante.jpg
-9 312 533 90 Organique.jpg
-10 73 150 90 Vers.jpg
-11 322 57 90 Potion.jpg
-12 200 100 90 Emeu.jpg
-14
-0 7 10
-1 0 1
-2 0 2
-3 1 6
-4 1 2
-5 2 4
-6 2 5
-8 6 7
-9 6 1
-10 7 8
-11 8 9
-12 10 9
-13 0 11
-14 12 10
+13
+0 710 126 100 Gaulois.jpg
+1 753 549 100 Romain.jpg
+2 362 591 100 Sanglier.jpg
+3 532 473 100 Idefix.jpg
+4 72 617 100 Souris.jpg
+5 42 443 100 Gland.jpg
+6 615 348 100 Crocodile.jpg
+7 428 180 100 Chevre.jpg
+8 361 412 100 Plante.jpg
+9 257 206 100 Organique.jpg
+10 69 20 100 Vers.jpg
+11 500 3 100 Potion.jpg
+12 45 215 100 Emeu.jpg
+20
+0 12 5 2
+1 2 12 2
+2 0 2 2
+3 1 6 1
+4 1 2 1
+5 2 4 1
+6 2 5 2
+7 3 2 2
+8 6 7 1
+9 6 1 1
+10 7 8 1
+11 8 9 2
+12 10 9 2
+13 0 11 2
+14 12 10 2
+15 10 0 2
+16 2 8 1
+17 7 10 2
+18 4 8 1
+19 4 5 1

@@ -27,8 +27,6 @@ void Menu::load()
     m_bouton_quitter.add_child(m_image_quitter);
     m_image_quitter.set_pic_name("quitter.jpg");
 
-
-
     m_bouton_graphe.add_child(m_image_graphe);
     m_image_graphe.set_pic_name("bouton_graphe.jpg");
 

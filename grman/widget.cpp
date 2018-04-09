@@ -170,18 +170,6 @@ void WidgetText::draw()
         for (int i=0, y=0; i<(int)m_message.length(); ++i, y+=text_height(m_font))
             textprintf_ex(m_view, font, 0, y, m_color, -1, "%c", m_message[i]);
     }
-    textprintf_ex(page, font,30,140,makecol(0,0,0),-1,"ajouter");
-           if ((mouse_b&1)&&(mouse_x>700)&&(mouse_x<770)&&(mouse_y>140)&&(mouse_y<150))
-           {
-
-               std::cout<<"Indiquer le sommet a ajouter"<<std::endl;
-              // textprintf_ex(page, font,30,160,makecol(0,0,0),-1,"Ajouter Emeu");
-
-
-           }
-
-//textprintf_ex(page, font, 300, 400, makecol(255,0,0), -1, "%s", "Emma");
-    //blit(m_view, page, 0, 0, 366, 220, 800,600);
 }
 
 void WidgetText::set_message(std::string message)

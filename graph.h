@@ -153,6 +153,9 @@ class Vertex
         // VertexInterface * m_interface = nullptr;
 
         bool m_marque;
+        bool m_connexite;
+        float nb_mange;
+        float nb_produit;
 
 
     public:
@@ -160,7 +163,7 @@ class Vertex
         /// Les constructeurs sont à compléter selon vos besoin...
         /// Ici on ne donne qu'un seul constructeur qui peut utiliser une interface
         Vertex (double value=0, VertexInterface *interface=nullptr) :
-            m_value(value), m_interface(interface)  {  }
+            m_value(value), m_interface(interface), m_connexite(false) {  }
 
         /// Vertex étant géré par Graph ce sera la méthode update de graph qui appellera
         /// le pre_update et post_update de Vertex (pas directement la boucle de jeu)
@@ -225,10 +228,12 @@ class Edge
         int m_to;
 
         /// un exemple de donnée associée à l'arc, on peut en ajouter d'autres...
-        double m_weight;
+        int m_weight;
 
         /// le POINTEUR sur l'interface associée, nullptr -> pas d'interface
         std::shared_ptr<EdgeInterface> m_interface = nullptr;
+
+        bool m_connexite;
 
 
     public:
@@ -236,7 +241,7 @@ class Edge
         /// Les constructeurs sont à compléter selon vos besoin...
         /// Ici on ne donne qu'un seul constructeur qui peut utiliser une interface
         Edge (double weight=0, EdgeInterface *interface=nullptr) :
-            m_weight(weight), m_interface(interface)  {  }
+            m_weight(weight), m_interface(interface), m_connexite(false)  {  }
 
         /// Edge étant géré par Graph ce sera la méthode update de graph qui appellera
         /// le pre_update et post_update de Edge (pas directement la boucle de jeu)
@@ -273,9 +278,19 @@ class GraphInterface
 
         grman::WidgetButton asterix;
         grman::WidgetButton livre;
+        grman::WidgetButton foret;
         grman::WidgetButton ajouter;
         grman::WidgetButton sauvegarder;
         grman::WidgetButton supprimer;
+        grman::WidgetButton play;
+        grman::WidgetButton pause;
+        grman::WidgetImage Play_toolbox;
+        grman::WidgetImage Pause_toolbox;
+        grman::WidgetImage Gaulois_toolbox;
+        grman::WidgetImage Mowgli_toolbox;
+        grman::WidgetImage Foret_toolbox;
+        grman::WidgetImage Sauv_toolbox;
+
 
 
         // A compléter éventuellement par des widgets de décoration ou
@@ -286,11 +301,14 @@ class GraphInterface
         // Le constructeur met en place les éléments de l'interface
         // voir l'implémentation dans le .cpp
         GraphInterface(int x, int y, int w, int h);
-        grman::WidgetButton& getAsterix();
-        grman::WidgetButton& getLivre();
-          grman::WidgetButton& getAjouter(){return ajouter;};
+        grman::WidgetButton& getAsterix() {return asterix;};
+        grman::WidgetButton& getLivre() {return livre;};
+        grman::WidgetButton& getForet(){return foret;};
+        grman::WidgetButton& getAjouter(){return ajouter;};
         grman::WidgetButton& getSauvegarder() {return sauvegarder;};
         grman::WidgetButton& getSupprimer() {return supprimer;};
+        grman::WidgetButton& getPlay() {return play;};
+        grman::WidgetButton& getPause() {return pause;};
 };
 
 
@@ -309,6 +327,8 @@ class Graph
         std::shared_ptr<GraphInterface> m_interface = nullptr;
 
         int m_ordre;
+        int cmp_connex;
+        int cmp_temp;
 
 
     public:
@@ -316,7 +336,7 @@ class Graph
         /// Les constructeurs sont à compléter selon vos besoin...
         /// Ici on ne donne qu'un seul constructeur qui peut utiliser une interface
         Graph (GraphInterface *interface=nullptr) :
-            m_interface(interface)  {  }
+            m_interface(interface), cmp_connex(0), cmp_temp(0)  {  }
 
         void add_interfaced_vertex(int idx, double value, int x, int y, std::string pic_name="", int pic_idx=0 );
         void add_interfaced_edge(int idx, int vert1, int vert2, double weight=0);
@@ -330,6 +350,7 @@ class Graph
         void sauvegarder(std::string file_name);
         void ajouter_sommet(std::string file_name);
         void ajouter_sommet_graph2(std::string file_name);
+        void ajouter_sommet_foret(std::string file_name);
         void supprimer_sommet(int in_sommet, std::string file_name);
         void dynamique(std::string file_name);
 
@@ -338,7 +359,9 @@ class Graph
         /// La méthode update à appeler dans la boucle de jeu pour les graphes avec interface
         void update();
         void connexite();
-        void DFS(int id_depart);
+        void DFS(int id_depart, int couleur);
+        int getCmp_connex() const {return cmp_connex;};
+        void setCmp_connex(int cmp){cmp_connex = cmp;};
 };
 
 

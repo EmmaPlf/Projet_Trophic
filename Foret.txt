@@ -1,0 +1,11 @@
+5
+0 300 31 100 homme.jpg
+1 490 524 100 Organique.jpg
+2 214 455 100 Plante.jpg
+3 586 189 100 renard.jpg
+4 150 253 100 Souris.jpg
+4
+0 0 3 2
+1 3 4 2
+2 4 2 2
+3 2 1 2
